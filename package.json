@@ -7,6 +7,8 @@
     "prestart-backend": "cd byteworks-api && npm install",
     "prestart-frontend": "cd byteworks-web && npm install",
     "start": "npm run start-byteworks-api && npm run start-byteworks-web",
+    "start-byteworks-api": "cd byteworks-api && npm start",
+    "start-byteworks-web": "cd byteworks-web && npm start",
     "test": "jest"
   },
   "repository": {
