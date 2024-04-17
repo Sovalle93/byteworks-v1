@@ -8,15 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sovalle93/PF.git"
+    "url": "git+https://github.com/Sovalle93/byteworks-v1"
   },
-  "keywords": [
-    "pf"
-  ],
+  "keywords": [],
   "author": "Santiago_Ovalle",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Sovalle93/PF/issues"
+    "url": "https://github.com/Sovalle93/byteworks-v1"
   },
-  "homepage": "https://github.com/Sovalle93/PF#readme"
+  "homepage": "https://github.com/Sovalle93/byteworks-v1"
 }
