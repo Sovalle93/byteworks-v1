@@ -2,7 +2,7 @@
   "name": "pf",
   "version": "1.0.0",
   "description": "byteworks",
-  "main": "server.js",
+  "main": "byteworks-api/server.js",
   "scripts": {
     "test": "jest"
   },
