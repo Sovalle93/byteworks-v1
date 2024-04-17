@@ -1,0 +1,22 @@
+{
+  "name": "pf",
+  "version": "1.0.0",
+  "description": "byteworks",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sovalle93/PF.git"
+  },
+  "keywords": [
+    "pf"
+  ],
+  "author": "Santiago_Ovalle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sovalle93/PF/issues"
+  },
+  "homepage": "https://github.com/Sovalle93/PF#readme"
+}
