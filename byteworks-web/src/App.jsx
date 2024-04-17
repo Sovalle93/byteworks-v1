@@ -17,6 +17,7 @@ import axios from 'axios';
 import { ENDPOINT } from './config/constans';
 import SearchApp from './pages/Enterprise/Applicants/SearchApp';
 import CreateJobs from './pages/Enterprise/Projects/CreateJobs';
+import NotFound from './pages/NotFound';
 
 const axiosInstance = axios.create({
   baseURL: ENDPOINT.URLBASE,
@@ -42,6 +43,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/people" element={<People />} />
         <Route path="/business" element={<Business />} />
+        <Route path="*" element={<NotFound />} />
         <Route path="/enterprise" element={<PrivateRoute Component={Enterprise} />} />
         <Route path="/searchapp" element={<PrivateRoute Component={SearchApp} />} />
         <Route path="/createjobs" element={<PrivateRoute Component={CreateJobs}/>} />
