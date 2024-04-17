@@ -4,8 +4,8 @@
   "description": "byteworks",
   "main": "server.js",
   "scripts": {
-    "prestart-backend": "cd byteworks-api && npm install",
-    "prestart-frontend": "cd byteworks-web && npm install",
+    "prestart-byteworks-api": "cd byteworks-api && npm install",
+    "prestart-bytewors-web": "cd byteworks-web && npm install",
     "start": "npm run start-byteworks-api && npm run start-byteworks-web",
     "start-byteworks-api": "cd byteworks-api && npm start",
     "start-byteworks-web": "cd byteworks-web && npm start",
