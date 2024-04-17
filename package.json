@@ -1,14 +1,12 @@
 {
-  "name": "pf",
+  "name": "byteworks-v1",
   "version": "1.0.0",
   "description": "byteworks",
   "main": "server.js",
   "scripts": {
     "prestart-backend": "cd byteworks-api && npm install",
-    "start-backend": "cd byteworks-api && npm start",
     "prestart-frontend": "cd byteworks-web && npm install",
-    "start-frontend": "cd byteworks-web && npm start",
-    "start": "concurrently \"npm run start-byteworks-api\" \"npm run start-byteworks-web\"",
+    "start": "npm run start-byteworks-api && npm run start-byteworks-web",
     "test": "jest"
   },
   "repository": {
